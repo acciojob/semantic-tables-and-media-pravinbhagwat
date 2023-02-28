@@ -1,2 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-/* Your CSS Code here. */
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #dddddd;
+}
+
+/* style for the list */
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+/* style for the media elements */
+img {
+  display: block;
+  margin: auto;
+}
+
+video, audio {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
